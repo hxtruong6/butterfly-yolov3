@@ -8,9 +8,10 @@
    - CommonBuckeye
    - MourningCloak
    - ParisPeacock
-     Total about 1200 images
-     Butterfly images was taken from google and many pages.
-     I created 3 utils for getting, converting type image, changing name.
+  
+  Total about 1200 images
+  Butterfly images was taken from google and many pages.
+  I created 3 utils for getting, converting type image, changing name.
 
    _Script getting image from google image search_
 
@@ -44,12 +45,13 @@ function getAllImgageSrc() {
 }
 ```
 
-   I used tool _Yolo-Annotation-Tool-New_ to create the bounding box for images
+I used tool _Yolo-Annotation-Tool-New_ to create the bounding box for images
 
 2. Training
    - I followed to this link: _https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects-ccbcafeb13d2_
-   - I trained model on Google Colab follow this link: _https://colab.research.google.com/drive/1lTGZsfMaGUpBG4inDIQwIJVW476ibXk_#scrollTo=wkzMqLZV-rF5_
+   - I trained model on Google Colab follow this link: _https://colab.research.google.com/drive/1lTGZsfMaGUpBG4inDIQwIJVW476ibXk_#scrollTo=wkzMqLZV-rF5\_
    - I did almost the same, fix some error about the path to file
+
 ##### Thank you for sharing <3
 
 3. Notes
@@ -60,5 +62,9 @@ function getAllImgageSrc() {
    - I saved _backup file_ and _wieghts_ in backup folder of google colab. So I need to download files before google reset
 
 Finally, this is my notebok: _https://colab.research.google.com/drive/1HAc0G3hedpFuJ1XI1fNVZSAYJGiaoCgq?authuser=1#scrollTo=wrI19JfCeyZh_
+
+### Update
+
+- Understand output: _https://timebutt.github.io/static/understanding-yolov2-training-output/_
 
 #### Have a nice day!!!
