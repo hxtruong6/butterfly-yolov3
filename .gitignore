@@ -3,6 +3,7 @@
 *.csv
 *.out
 *.png
+!prepareDatasetRefer.png
 *.jpg
 *.pyc
 old/
