@@ -58,6 +58,7 @@ function getAllImgageSrc() {
    - In _butterfly-obj.data_ file. It will save a backup file and weight after 1000 at fist and 10000 times next by default
    - Because I don't want save after 10000 times, so I change _detector.c_ in _examples_ folder. \*_Line 138_ change to `if(i%500==0 || (i < 1000 && i%100 == 0)){ ...}`. It means it will save weights file after 100 times at first and 500 times for second time.
    - I saved _backup file_ and _wieghts_ in backup folder of google colab. So I need to download files before google reset
+
 Finally, this is my notebok: _https://colab.research.google.com/drive/1HAc0G3hedpFuJ1XI1fNVZSAYJGiaoCgq?authuser=1#scrollTo=wrI19JfCeyZh_
 
 #### Have a nice day!!!

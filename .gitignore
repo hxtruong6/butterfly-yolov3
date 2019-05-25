@@ -5,6 +5,7 @@
 *.png
 !prepareDatasetRefer.png
 *.jpg
+!predictions.jpg
 *.pyc
 old/
 mnist/
