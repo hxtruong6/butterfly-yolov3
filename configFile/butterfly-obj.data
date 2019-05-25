@@ -1,5 +1,5 @@
 classes = 3 
-train  = butterfly-train.txt  
-valid  = butterfly-test.txt  
+train  = ./butterfly-train.txt  
+valid  = ./butterfly-test.txt  
 names = ./configFile/butterfly-obj.names  
-backup = /content/gdrive/My\ Drive/University/Butterfly-yolov3/backup/
+backup = /content/gdrive/My\  Drive/University/Butterfly-yolov3/backup
